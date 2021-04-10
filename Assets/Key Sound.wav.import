@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Key Sound.wav-6b7be077010ca27ca7f196ce0d30a31e.sample"
+
+[deps]
+
+source_file="res://Assets/Key Sound.wav"
+dest_files=[ "res://.import/Key Sound.wav-6b7be077010ca27ca7f196ce0d30a31e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
