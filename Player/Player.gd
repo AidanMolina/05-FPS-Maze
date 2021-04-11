@@ -11,13 +11,13 @@ var velocity = Vector3()
 
 func get_input():
 	var input_dir = Vector3()
-	if Input.is_action_pressed("Forward"):
+	if Input.is_action_pressed("forward"):
 		input_dir += -Camera.global_transform.basis.z
-	if Input.is_action_pressed("Back"):
+	if Input.is_action_pressed("back"):
 		input_dir += Camera.global_transform.basis.z
-	if Input.is_action_pressed("Left"):
+	if Input.is_action_pressed("left"):
 		input_dir += -Camera.global_transform.basis.x
-	if Input.is_action_pressed("Right"):
+	if Input.is_action_pressed("right"):
 		input_dir += Camera.global_transform.basis.x
 	input_dir = input_dir.normalized()
 	return input_dir

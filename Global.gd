@@ -10,7 +10,7 @@ func _ready():
 	load_input()
 
 func _unhandled_input(_event):
-	if Input.is_action_just_pressed("Menu"):
+	if Input.is_action_just_pressed("menu"):
 		if menu == null:
 			menu = get_node_or_null("/root/Game/UI/Menu")
 		if menu != null:

@@ -401,6 +401,7 @@ transform = Transform( -0.19839, 0, -0.0253196, 0, 0.2, 0, 0.0253196, 0, -0.1983
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 8 )
+volume_db = 1.0
 autoplay = true
 
 [node name="Key" type="AudioStreamPlayer" parent="."]
